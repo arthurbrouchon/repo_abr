@@ -1,0 +1,17 @@
+[project]
+name = "repo-abr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "a-brouchon-ece", email = "arthur.brouchon@edu.ece.fr" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+repo-abr = "repo_abr:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
